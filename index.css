@@ -1,0 +1,263 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav {
+    height: 18px;
+    background-color:aqua;
+  
+}
+
+/* top */
+
+
+
+#flex-container{
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+    height: 60px;
+    margin-top: 7px;
+    background-color: yellowgreen;
+    
+    padding: 5px;
+    
+}
+p1{
+    margin-left:400px;
+    font-size:20px;
+    
+}
+p10{
+    margin-left:30px;
+    font-size:25px;
+    text-decoration-line: underline;
+    
+}
+     /* the logos inside the top */
+.banka{
+    height: 40px;
+    margin-left: 100px;
+    width: 50px;
+}
+.banka2{
+    height: 40px;
+    margin-left: 50px;
+    width: 50px;
+}
+
+      /* end of logo inside top */
+
+/* end of the top  */
+
+
+/* the container in the midle havs three boxs*/
+
+
+#flex-container2{
+    position: relative;
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+    height: 460px;
+    border: 1px solid black;
+    flex-direction: row;
+}
+    /* the teft box in the midle  */
+#flex-left{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    margin: 50px;
+    
+    
+    
+}
+.boxs{
+    border-radius: 15px;
+    width: 120px;
+    height: 50px;
+    
+    border:1px solid black;
+    font-size: 60px;
+   
+    
+
+}
+.box-white{
+    background-color: white;
+    
+}
+.box-blue{
+    background-color: blue;
+}
+.box-yellow{
+    background-color: yellow;
+}
+.box-azure{
+background-color:azure;
+}
+.box-green{
+background-color: green;
+}
+.box-aqua{
+    background-color: aqua;
+}
+
+   /* all the logos on the left  */
+.logo{
+     
+    height: 35px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+
+   /* the box in the midle  */
+#flex-inside{
+    border: 0.5px solid black;
+    display:flex;
+    flex-grow: 2;
+    flex-direction: column;
+    border: 1px solid black;
+    overflow: auto;
+    
+}
+
+   /* the logo of mark */
+.mark{
+     
+    height: 35px;
+    margin-bottom: 10px;
+    margin-left: 300px;
+    
+}
+
+
+/* desing of the boxs in the midle   */
+.box2{
+    
+    border:1px solid black;
+    font-size: 60px;
+    text-align: center;
+    
+    padding: 15px;
+}
+h1{
+    font-size:30px;
+}
+h2{
+    font-size: 25px;
+}
+p{
+    font-size: small;
+}
+.box-first{
+    background-color: brown;
+    flex-grow: 0.5;
+}
+.box-second{
+    
+    background-color: tomato;
+    flex-grow: 3;
+}
+
+
+#flex-right{
+    position: relative;
+    display:flex;
+    flex-grow: 1;
+    flex-direction: column;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box3{
+
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+    width: 150px;
+    height: 130px;
+    font-size: 60px;
+    
+}
+.box-one{
+background-color:aqua;
+border: 2px solid #000;
+}
+.user{
+    height: 70px;
+    width: 70px;  
+    margin: 10px;
+}
+
+.box-two{
+    background-color: blue;
+    border: 2px solid #000;
+}
+p2{
+    background-color: blanchedalmond;
+    text-decoration: underline
+}
+.box-three{
+    display: flex;
+    justify-content:space-between;
+    background-color:aquamarine;
+    border: 2px solid #000;
+    flex-direction: column;
+}
+.column{
+    
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #00f;
+    
+}
+
+
+/* end of the midle */ 
+
+
+
+
+
+
+#flex-container3{
+    display: flex;
+    position: relative;
+    display: flex;
+    height:fit-content
+    width: auto;
+    justify-content:space-around;
+    border: 0.5px solid black;
+}
+    
+.boxy1{
+    text-align: center;
+    border-radius: 5px;
+    width: 150px;
+    height: 70px;
+    background-color: rgb(79, 128, 0);
+    margin: 15px;
+
+}
+.boxy2{
+    text-align: center;
+    border-radius: 5px;
+    width: 150px;
+    height: 70px;
+    background-color: yellow;
+    margin: 15px;
+}
+.boxy3{
+    text-align: center;
+    border-radius: 5px;
+    width: 150px;
+    height: 70px;
+    background-color: orange;
+    margin: 15px;
+} 
+
